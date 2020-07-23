@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup sonarqube
-        uses: warchant/setup-sonar-scanner@v1
+        uses: sonarsource/sonarcloud-github-action@master
 
       - name: Checkout Code
         uses: actions/checkout@v2
 
-      - name: Setup sonarqube
+      - name: Run sonar scanner
         env:
           # to get access to secrets.SONAR_TOKEN, provide GITHUB_TOKEN
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

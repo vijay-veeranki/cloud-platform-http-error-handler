@@ -1,6 +1,6 @@
-# Cloud Platform Custom Error Pages
+# Custom Error Pages
 
-This repo creates a docker image for sample application with the HTTP handler implemented. It accepts a URL param and returns the HTTP status.
+This repository creates a docker image for sample application with the HTTP handler implemented. It accepts a URL param and returns the HTTP status.
 
 ## Build and Push Image
 
